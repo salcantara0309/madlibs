@@ -6,28 +6,50 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home () {
   return (
     <div>
-      <head>
+      {/* <head>
         <title>Mad Libs</title>
-      </head>
-      
-      <header>
-          <nav>
-            <img />
-            <a href=''> Home</a>
-            <a href='/mad_libs'> Mad Libs</a>
-            <a href='/about'> About</a>
-          </nav>
-        </header>
-      
-      <main>
-        <div>
-          <h2>Fun Mad Libs</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-      </main>
-      <footer>
+      </head> */}
 
-      </footer>
+      <header>
+        <nav>
+          <img />
+          <a href=''>Home</a>
+          <a href='/about'>About Us</a>
+          <a href='/basics'>Basics</a>
+          <a href='/seasons'>Seasonal</a>
+        </nav>
+      </header>
+      <main>
+        <a href=''>
+          <img />
+          <h2>Basic Mad Libs</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </a>
+
+        <a href=''>
+          <img />
+          <h2>Seasonal Mad Libs</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </a>
+
+        <a href=''>
+          <img />
+          <h2>Nerdy Mad Libs</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </a>
+
+      </main>
+
+      <footer></footer>
     </div>
   )
 }
