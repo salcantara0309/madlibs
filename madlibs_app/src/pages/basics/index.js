@@ -1,5 +1,5 @@
 const Page = () => {
-    return <h1>Event One</h1>
+    return <h1>Basic Libs</h1>
 }
 
 export default Page;
