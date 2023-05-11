@@ -15,14 +15,13 @@ export default function Home () {
           <img />
           <a href=''>Home</a>
           <a href='/about'>About Us</a>
-          <a href='/basics'>Basics</a>
-          <a href='/seasons'>Seasonal</a>
+          <a href='/basics'>Basic Mad Libs</a>
         </nav>
       </header>
       <main>
         <a href=''>
           <img />
-          <h2>Basic Mad Libs</h2>
+          <h2>Walking in the Park</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
             dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
@@ -31,7 +30,7 @@ export default function Home () {
 
         <a href=''>
           <img />
-          <h2>Seasonal Mad Libs</h2>
+          <h2>Going to School</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
             dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
@@ -40,7 +39,7 @@ export default function Home () {
 
         <a href=''>
           <img />
-          <h2>Nerdy Mad Libs</h2>
+          <h2>Soccer Practice</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
             dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
