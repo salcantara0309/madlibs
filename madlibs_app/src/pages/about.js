@@ -1,7 +1,7 @@
-const Page = () => {
+const AboutUsPage = () => {
     return (
         <div>
-            <h1>About us</h1>
+            <h1>About Us</h1>
             <p> 
                 {' '}
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa 

@@ -1,9 +1,9 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import Image from 'next/image';
+import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home () {
+export default function Home ({title}) {
   return (
     <div>
       {/* <head>
@@ -19,7 +19,8 @@ export default function Home () {
         </nav>
       </header>
       <main>
-        <a href=''>
+        <h1>{title}</h1>
+        <a href="">
           <img />
           <h2>Walking in the Park</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -28,7 +29,7 @@ export default function Home () {
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </a>
 
-        <a href=''>
+        <a href="">
           <img />
           <h2>Going to School</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -37,7 +38,7 @@ export default function Home () {
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </a>
 
-        <a href=''>
+        <a href="">
           <img />
           <h2>Soccer Practice</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -51,6 +52,15 @@ export default function Home () {
       <footer></footer>
     </div>
   )
+}
+
+export function getServerSideProps () {
+
+    return {
+        props:{
+            title: 'Hello everyone!'
+        }
+    }
 }
 
 // export default function Home() {
